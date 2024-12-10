@@ -2,9 +2,11 @@ package fr.lille.alom.authentication_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
-public class AuthenticationServerApplication {
+public class AuthenticationServerApplication extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
         SpringApplication.run(AuthenticationServerApplication.class, args);

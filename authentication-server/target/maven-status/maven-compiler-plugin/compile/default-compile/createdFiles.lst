@@ -1,0 +1,5 @@
+fr/lille/alom/authentication_server/AuthenticationController.class
+fr/lille/alom/authentication_server/AuthenticationServerApplication.class
+fr/lille/alom/authentication_server/AuthResponseDTO.class
+fr/lille/alom/authentication_server/UserDTO.class
+fr/lille/alom/authentication_server/AuthenticationService.class
